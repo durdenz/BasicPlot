@@ -16,4 +16,11 @@ Install the packages for matplotlab
     $ apt-get install python3-tk
     $ python3 -m pip install matplotlib
 
-
+Setup Git and Github
+    $ echo "# BasicPlot" >> README.md
+    $ git init
+    $ git add README.md
+    $ git commit -m "first commit"
+    $ git branch -M main
+    $ git remote add origin https://github.com/durdenz/BasicPlot.git
+    $ git push -u origin main
