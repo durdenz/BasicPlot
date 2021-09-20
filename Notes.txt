@@ -1,0 +1,19 @@
+## Setup Virtual Enviroment for Python Project
+
+To Create Virtual Environment (first time):
+    In directory for project:
+    $ python3 -m venv .venv
+
+To Activate:
+    $ source .venv/bin/activate
+
+Select environment using Python: Select Interpreter from the VSC Command Palette
+
+To Deactivate:
+    $ deactivate 
+
+Install the packages for matplotlab
+    $ apt-get install python3-tk
+    $ python3 -m pip install matplotlib
+
+
